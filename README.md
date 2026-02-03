@@ -8,6 +8,7 @@ It includes:
  Functions and modules
  Logical & problem-solving programs
  Small practice tasks and examples
+ 
  -----------------------------------The main goal of this repository is to:-------------------------------------------
 Improve problem-solving skills
 Build a strong Python foundation
