@@ -28,5 +28,13 @@
 #print('middle value of the list', a[len(a)//2])
 
 """Write a program to print the values present at the even index from tuple"""
-a=eval(input('enter the tuple values:'))
+#a=eval(input('enter the tuple values:'))
 #print( 'values present at the even index', a[::2])
+
+"""Write  a program to convert int into float"""
+#a=int(input('enter a value:'))
+#print('convert int into float',float(a))
+
+"""Write a program to find the number of words in a string  """
+s=(input('enter the string:')).split()
+print(len(s))
