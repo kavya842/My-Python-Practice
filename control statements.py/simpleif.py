@@ -12,3 +12,13 @@
 #char=(input('enter the char:'))
 #if char  in ['a','e','i','o','u']:
 #    print(char)
+
+# (or)
+#char=input('enter the vowel')
+#if char in ('a','e','i','o','u',A','E','I','O','U'):
+#    Print('it is a vowel')
+
+"""Write a program to print the ascii value of a char  if char is uppercase"""
+#char=input('enter the character:')
+#if 65 >= ord(char) <= 90:
+#    print('the ascii value of character:',ord(char))
