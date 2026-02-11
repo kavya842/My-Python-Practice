@@ -1,4 +1,4 @@
-Daily Python Practice & Learning Journey
+-------------------------------------------Daily Python Practice & Learning Journey----------------------------------------------------
 
 I am consistently practicing Python every day to strengthen my programming, problem-solving, and logical thinking skills. This repository serves as a record of my continuous learning and dedication to mastering Python.
 
