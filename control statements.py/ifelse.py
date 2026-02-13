@@ -69,18 +69,6 @@
 
 """Write a program to check whether a collection is homogenous or not """
 # l = eval(input("Enter collection: "))
-# flag = 1
-# for i in l:
-#     if type(i) != type(l[0]):
-#         flag = 0
-# if flag==1:
-#     print("Homogeneous")
-# else:
-#     print("Not Homogeneous")
-
-                     # (or)
-
-# l = eval(input("Enter collection: "))
 # if type(l[0]) == type(l[1]) and type(l[1]) == type(l[2]):                  (or)       if type(l[0])==type(l[-1]):
 #     print("Homogeneous")
 # else:

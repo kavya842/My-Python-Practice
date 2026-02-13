@@ -99,7 +99,7 @@
 
 # print("Second greatest number is:", nums[1])
 
-#(or)
+                                                                 #(or)
 # a = int(input("Enter first number: "))
 # b = int(input("Enter second number: "))
 # c = int(input("Enter third number: "))
@@ -196,4 +196,4 @@
 #         else:
 #             lowest = d
 
-print("Lowest number is:", lowest)
+# print("Lowest number is:", lowest)

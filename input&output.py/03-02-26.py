@@ -36,5 +36,7 @@
 #print('convert int into float',float(a))
 
 """Write a program to find the number of words in a string  """
-s=(input('enter the string:')).split()
-print(len(s))
+# s=(input('enter the string:')).split()
+# print(len(s))
+
+

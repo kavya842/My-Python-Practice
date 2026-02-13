@@ -39,7 +39,7 @@
 #     print("Greatest number is a")
 # elif b>=a and b>=c:
 #     print("greates number is b")
-# else:+
+# else:
     # print("Greatest numnber is c")
 """Write  a program to find the relation between two numbers"""
 # a=int(input("Enter a value:"))
