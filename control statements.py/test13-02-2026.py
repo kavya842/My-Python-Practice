@@ -17,8 +17,34 @@
 # else:
 #     print('perform division operation',n1/n2)
 """Write  a program to check whether a string is palindrome or not"""
-ch=(input('enter the char:'))
-if ch==ch[::-1]:
-    print('it is a palindrome')
-else:
-    print('it is not a  palindrome')
+# ch=(input('enter the char:'))
+# if ch==ch[::-1]:
+#     print('it is a palindrome')
+# else:
+#     print('it is not a  palindrome')
+# """Write  a program to print helloworld for 20 times without using loops concept """
+# print('helloworld')
+# print('helloworld')
+# print('helloworld')
+# print('helloworld')
+# print('helloworld')
+# print('helloworld')
+# print('helloworld')
+# print('helloworld')
+# print('helloworld')
+# print('helloworld')
+# print('helloworld')
+# print('helloworld')
+# print('helloworld')
+
+# print('helloworld')
+# print('helloworld')
+# print('helloworld')
+# print('helloworld')
+# print('helloworld')
+# print('helloworld')
+# print('helloworld')
+"""Write a program to perform addition between two numbers"""
+# a=int(input())
+# b=int(input())
+# print(a+b)
