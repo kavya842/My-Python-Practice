@@ -108,16 +108,25 @@
 
 # print(k)
 
-
+"""Assignment"""
 """Write a program to extract special characters from a string"""
-s = input("Enter a string: ")
-i = 0
-special = ""
-while i < len(s):
-    ch = s[i]
-    if not (('A' <= ch <= 'Z') or ('a' <= ch <= 'z') or ('0' <= ch <= '9')):
-        special = special + ch
-    i += 1
-print("Special characters:", special)
+# s = input("Enter a string: ")
+# i = 0
+# special = ""
+# while i < len(s):
+#     ch = s[i]
+#     if not (('A' <= ch <= 'Z') or ('a' <= ch <= 'z') or ('0' <= ch <= '9')):
+#         special = special + ch
+#     i += 1
+# print("Special characters:", special)
 
 """Write a program to extract the integers from the list"""
+lst=eval(input('enter the list'))
+i=0
+a=[]
+while i<len(lst):
+    if type(lst[i])==int:
+        a.append(lst[i])
+    i+=1
+print(a)
+
