@@ -24,9 +24,14 @@
 # print(count)
 """Assignment Questions"""
 """Write a program the lowercase char if its ascii value is even"""
-s=eval(input())
-for i in s:
-    if i.islower():
-        if ord(i)%2==0:
-            print(i)
+# s=eval(input())
+# for i in s:
+#     if i.islower():
+#         if ord(i)%2==0:
+#             print(i)
 """Write  a program the sum of integers in present a  set """
+s=eval(input())
+sum=0
+for i in s:
+    sum=sum+i
+print(sum)
