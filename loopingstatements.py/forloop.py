@@ -29,6 +29,13 @@
 #     if i.islower():
 #         if ord(i)%2==0:
 #             print(i)
+
+# (0r)
+s=eval(input())
+for i in s:
+    if 'a'<=i<='z':
+        if ord(i)%2==0:
+           print(i)
 """Write  a program the sum of integers in present a  set """
 # s=eval(input())
 # sum=0
@@ -36,9 +43,9 @@
 #     sum=sum+i
 # print(sum)
 #  (or)
-s=eval(input())
-sum=0
-for i in s:
-    if type(i)==int or type(i)==float:
-        sum=sum+i
-print(sum)
+# s=eval(input())
+# sum=0
+# for i in s:
+#     if type(i)==int or type(i)==float:
+#         sum=sum+i
+# print(sum)
