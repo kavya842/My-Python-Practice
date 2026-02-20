@@ -31,11 +31,11 @@
 #             print(i)
 
 # (0r)
-s=eval(input())
-for i in s:
-    if 'a'<=i<='z':
-        if ord(i)%2==0:
-           print(i)
+# s=eval(input())
+# for i in s:
+#     if 'a'<=i<='z':
+#         if ord(i)%2==0:
+#            print(i)
 """Write  a program the sum of integers in present a  set """
 # s=eval(input())
 # sum=0
@@ -49,3 +49,47 @@ for i in s:
 #     if type(i)==int or type(i)==float:
 #         sum=sum+i
 # print(sum)
+"""Write a program to display the split of string and its length"""
+# s=input().split()
+# a=[]
+# for i in s:
+#    a.append((i,len(i)))
+# print(a)
+"""Write a program to reverse the string"""
+# i/p:-'sunday is funday'
+# o/p:-{'sunday','yadnus','is','si','funday','yadnuf'}
+# s='sunday is funday'.split()
+# a={}
+# for i in s:
+#    a[i]=i[::-1]
+# print(a)
+
+# (or)
+
+# s='sunday is funday'.split()
+# a={}
+# for i in s:
+#     a.setdefault(i,i[::-1])
+# print(a)
+
+"""Write a program to find out """
+# i/p:-'hyderabad is famous for chicken biriyani'
+# o/p:-{'hyderabad','r','is','is','famous','fs','for','o','chicken','c','biriyani','bi'}
+# n=input() .split()
+# a={}
+# for i in n:
+#      if len(i)%2==0:
+#           a[i]=i[0]+i[-1]
+#      else:
+#           a[i]=i[len(i)//2]
+# print(a)
+"""Write a program to find the occurance of a specified character in a string """
+n='kavya'
+n1='v'
+count=0
+for i in n:
+    if i==n1:
+        count+=1
+print(count)
+
+           
