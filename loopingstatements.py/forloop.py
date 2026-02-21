@@ -84,12 +84,54 @@
 #           a[i]=i[len(i)//2]
 # print(a)
 """Write a program to find the occurance of a specified character in a string """
-n='kavya'
-n1='v'
-count=0
-for i in n:
-    if i==n1:
-        count+=1
-print(count)
+# n='kavya'
+# n1='v'
+# count=0
+# for i in n:
+#     if i==n1:
+#         count+=1
+# print(count)
 
-           
+"""Write  a program to print the factorial of a  number"""
+# n=int(input())
+# fact=1
+# for i in range(1,n+1):
+#     fact=fact*i
+# print(fact)
+"""Write  a program to split the string and reverse the string"""
+# n=" python is easy ".split()
+# a=[]
+# for i in n:
+#     a.append(i[::-1])
+# print(" ".join(a))
+
+"""yahoo.com, hello.py, file1.txt,file2.html remove that extensions to the  names """
+# n=['yahoo.com','file1.html','file2.txt']
+# a=[]
+# for i in n:
+#     b=i.split('.')
+#     a.append(b[0])
+# print(a)
+"""Write a program to find the longest word in a sentence"""
+# s = "hi hello world"
+# a = s.split()
+# l = a[0]
+# for i in a:
+#     if len(i) >=len(l):
+#         l = i
+# print("Longest word:", l)
+# (or)
+# n=input('enter').split()
+# b=''
+# for i in range(len(n)):
+#     if (len(n[i]))>=(len(b)):
+#         b=(n[i])
+# print(b)
+"""Write a  program to extract the keyvalue pairs from the dictionary if the keys are string data type"""
+a={'a':10,20:30,'b':40, 'c':5, (10, 20):'hello'}
+b={}
+for i in a:
+    if type(i)==str:
+        b[i]=a[i]
+print(b)
+             

@@ -65,13 +65,13 @@
 #     print(a)
    
 """Write a program to find the factorial of a number"""
-# n=int(input('enter the number:'))         n=int(input('enter the number:))
-# i=1                                       fact=1
-# a=1                                       while n>=1:
-# while i<=n:            (or)                       fact*=n:
-#     a*=i                                          n-=1
-#     i+=1                                  print(fact)
-# print(a)
+# # n=int(input('enter the number:'))                n=int(input('enter the number:))
+# # i=1                                              fact=1
+# # a=1                                              while n>=1:
+# while i<=n:                          (or)                       fact*=n:
+#     a*=i                                                         n-=1
+#     i+=1                                                     print(fact)
+# # print(a)
 
 """Write a  program to print all the characters from a string"""
 # n=input(enter string:')
@@ -276,15 +276,16 @@
 # else:
 #     print("not prime")
 """Write a program to replace the space in a str with ** """ 
-# i/p:hello world
-# o/p:hello**world
-s=eval(input('enter the string'))
-o=" "
-i=0
-while i<len(s):
-    if s[i]==" ":
-        o=o+"**"
-    else:
-        o=o+s[i]
-    i+=1
-print(o)
+# # i/p:hello world
+# # o/p:hello**world
+# s=eval(input('enter the string'))
+# o=" "
+# i=0
+# while i<len(s):
+#     if s[i]==" ":
+#         o=o+"**"
+#     else:
+#         o=o+s[i]
+#     i+=1
+# print(o)
+
