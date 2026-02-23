@@ -135,9 +135,32 @@
 #         b[i]=a[i]
 # print(b)           
 # (or)
-a=eval(input())
-b={}
-for i in a:
-    if type(i)==str:
-        b[i]=a.get(i)
-print(b)
+# a=eval(input())
+# b={}
+# for i in a:
+#     if type(i)==str:
+#         b[i]=a.get(i)
+# print(b)
+"write  a program to get the extensions to the words"
+# i/p:-['python.py','yahoo.com','google.com','file1.py','hello.txt']
+# o/p:- {'py':['python','file1'],com['yahoo','google'],txt['hello']}
+# a=['python.py','yahoo.com','google.com','file1.py','hello.txt']
+# b={}
+# for i in a:
+#     c=i.split('.')
+#     if c[1] not in b:
+#         b[c[1]]=[c[0]]
+#     else:
+#         b[c[1]].append(c[0])
+# print(b)
+"""input:- s='aabbaaccbbca'"""
+"""output:- {'a':5,'b':4,'c':3}"""
+# a='aabbaaccbbca'
+# b={}
+# for i in a:
+#     C=a.count(i)
+#     b[i]=C
+# print(b)
+"""Write a program to print index positions of the vowels present in  a string"""
+"""Write a program to swap key and value in  a dictionary"""
+"""i/p:'aabacabc' o/p:- 'a4b2c2'"""
