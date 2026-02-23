@@ -128,10 +128,16 @@
 #         b=(n[i])
 # print(b)
 """Write a  program to extract the keyvalue pairs from the dictionary if the keys are string data type"""
-a={'a':10,20:30,'b':40, 'c':5, (10, 20):'hello'}
+# a={'a':10,20:30,'b':40, 'c':5, (10, 20):'hello'}
+# b={}
+# for i in a:
+#     if type(i)==str:
+#         b[i]=a[i]
+# print(b)           
+# (or)
+a=eval(input())
 b={}
 for i in a:
     if type(i)==str:
-        b[i]=a[i]
+        b[i]=a.get(i)
 print(b)
-             
