@@ -162,5 +162,27 @@
 #     b[i]=C
 # print(b)
 """Write a program to print index positions of the vowels present in  a string"""
+# s=input('enter the string')
+# for i in range(len(s)):
+#     if s[i] in 'aeiouAEIOU':
+#         print(i)
 """Write a program to swap key and value in  a dictionary"""
+a={'a':10,'b':20,'c':30}
+b={}
+for i in a:
+    b[a[i]]=i
+print(b)
+
 """i/p:'aabacabc' o/p:- 'a4b2c2'"""
+"""input='aabacabc"""
+"""output='a4b2c2'"""
+# s = "aabacabbc"
+# result = ""
+# for i in range(len(s)):              
+#     if s[i] not in result:          
+#         count = 0
+#         for j in range(len(s)):     
+#             if s[i] == s[j]:
+#                 count += 1
+#         result = result + s[i] + str(count)
+# print(result)
