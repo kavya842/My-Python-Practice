@@ -167,12 +167,19 @@
 #     if s[i] in 'aeiouAEIOU':
 #         print(i)
 """Write a program to swap key and value in  a dictionary"""
-a={'a':10,'b':20,'c':30}
-b={}
-for i in a:
-    b[a[i]]=i
-print(b)
+# a={'a':10,'b':20,'c':30}
+# b={}
+# for i in a:
+#     b[a[i]]=i
+# print(b)
 
+# (or)
+
+# d=eval(input())
+# d1={}
+# for i in d:
+#     d1[d.get(i)]=i
+# print(d1)
 """i/p:'aabacabc' o/p:- 'a4b2c2'"""
 """input='aabacabc"""
 """output='a4b2c2'"""
@@ -186,3 +193,15 @@ print(b)
 #                 count += 1
 #         result = result + s[i] + str(count)
 # print(result)
+
+# (or)
+# a='abcabc'
+# b=''
+# for i in a:
+#     c=str(a.count(i))
+#     if i not in b:
+#       b+=i+c
+# print(b)
+"""i/p:- aababbccb  compare the side by side characters o/p:-a2b1a1b2c2b1"""
+
+
