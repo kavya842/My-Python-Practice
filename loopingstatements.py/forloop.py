@@ -203,14 +203,14 @@
 #       b+=i+c
 # print(b)
 """i/p:- aababbccb  compare the side by side characters o/p:-a2b1a1b2c2b1"""
-s='aabbabbbcc'
-out=''
-count=1
-for i in range(len(s)-1):
-    if s[i]==s[i+1]:
-        count+=1
-    else:
-        out+=s[i]+str(count)
-        count=1
-out+=s[-1]+str(count)
-print(out)
+# s='aabbabbbcc'
+# out=''
+# count=1
+# for i in range(len(s)-1):
+#     if s[i]==s[i+1]:
+#         count+=1
+#     else:
+#         out+=s[i]+str(count)
+#         count=1
+# out+=s[-1]+str(count)
+# print(out)
