@@ -307,7 +307,9 @@ for i in n:
 #     n=n//10
 #     i+=1
 # print(i)
+
 # (or)
+
 # a=int(input('enter the number:'))
 # count=0
 # while a>0:
@@ -323,6 +325,16 @@ for i in n:
 #       lst1+=[l[i]]
 #    i+=1
 # print(lst1)
+
+# (or in for loop)
+
+# l=eval(input())
+# lst1=[]
+# for i in l:
+#     if i not in lst1:
+#         lst1+=[i]
+# print(lst1)
+
 """Write a program to find the greatest number from the list"""
 # n=eval(input())
 # i=0
@@ -344,6 +356,16 @@ for i in n:
 #     i+=1
 # print(largest)
 
+# (or in for loop)
+
+# n=eval(input())
+# largest=0
+# for i in n:
+#     if i>largest:
+#         largest=i
+# print(largest)
+
+
 """Write a program to check whether the number is prime number or not"""
 # n = int(input())
 # i = 2
@@ -353,6 +375,17 @@ for i in n:
 #     print("prime")
 # else:
 #     print("not prime")
+
+# (or in for loop)
+
+# n = int(input())
+# for i in range(2, n):
+#     if n % i == 0:
+#         print("not prime")
+#         break
+# else:
+#     print("prime")        
+
 """Write a program to replace the space in a str with ** """ 
 # # i/p:hello world
 # # o/p:hello**world
@@ -366,5 +399,16 @@ for i in n:
 #         o=o+s[i]
 #     i+=1
 # print(o)
-# (or  )
+
+# (or  in for loop)
+
+# s=eval(input('enter the string'))
+# o=""
+# for i in s:
+#     if i==" ":
+#         o=o+"**"
+#     else:
+#         o=o+i
+# print(o)
+
 
