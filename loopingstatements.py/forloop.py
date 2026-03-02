@@ -289,11 +289,32 @@
 #     C=a.count(i)
 #     b[i]=C
 # print(b)
+
+# (or in while loop)
+# a='aabbaaccbbca'
+# b={}
+# i=0
+# while i<len(a):
+#     C=a.count(a[i])
+#     b[a[i]]=C
+#     i+=1
+# print(b)
+
 """Write a program to print index positions of the vowels present in  a string"""
 # s=input('enter the string')
 # for i in range(len(s)):
 #     if s[i] in 'aeiouAEIOU':
 #         print(i)
+
+# (or in while loop)
+
+# s=input('enter the string')
+# i=0
+# while i<len(s):
+#     if s[i] in 'aeiouAEIOU':
+#         print(i)
+#     i+=1
+
 """Write a program to swap key and value in  a dictionary"""
 # a={'a':10,'b':20,'c':30}
 # b={}
@@ -308,6 +329,9 @@
 # for i in d:
 #     d1[d.get(i)]=i
 # print(d1)
+
+# (or in while loop)
+
 """i/p:'aabacabc' o/p:- 'a4b2c2'"""
 """input='aabacabc"""
 """output='a4b2c2'"""
@@ -330,6 +354,19 @@
 #     if i not in b:
 #       b+=i+c
 # print(b)
+
+# (or in while loop)
+
+# a='abcabc'
+# b=''
+# i=0
+# while i<len(a):
+#     c=str(a.count(a[i]))
+#     if a[i] not in b:
+#       b+=a[i]+c
+#     i+=1
+# print(b)
+
 """i/p:- aababbccb  compare the side by side characters o/p:-a2b1a1b2c2b1"""
 # s='aabbabbbcc'
 # out=''
@@ -340,5 +377,21 @@
 #     else:
 #         out+=s[i]+str(count)
 #         count=1
+# out+=s[-1]+str(count)
+# print(out)
+
+# (or in while loop)
+
+# s='aabbabbbcc'
+# out=''
+# count=1
+# i=0
+# while i<len(s)-1:
+#     if s[i]==s[i+1]:
+#         count+=1
+#     else:
+#         out+=s[i]+str(count)
+#         count=1
+#     i+=1
 # out+=s[-1]+str(count)
 # print(out)
