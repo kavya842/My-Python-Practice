@@ -152,9 +152,9 @@
 
 # (or in for loop)
 
-n=input('enter string:')
-for i in n:
-    print(i)
+# n=input('enter string:')
+# for i in n:
+#     print(i)
 
 
 
@@ -168,6 +168,16 @@ for i in n:
 #       k+=n[i]
 #     i+=1
 # print(k)
+
+# (or in for loop)
+# n=input('enter the string:')
+# k=''
+# v=['a','e','i','o','u','A','E','I','O','U']
+# for i in n:
+#     if i in v:
+#         k+=i
+# print(k)
+
 
 """Write a program to toggle the string"""
 # n = input('enter the string')
@@ -186,6 +196,22 @@ for i in n:
 
 # print(k)
 
+# (or in for loop)
+
+# n = input('enter the string')
+# k = ""
+# for i in n:
+#     if 'A' <= i <= 'Z':
+#         k = k + chr(ord(i) + 32)
+#     elif 'a' <= i <= 'z':
+#         k = k + chr(ord(i) - 32)
+#     elif '0' <= i <= '9':
+#         k = k + i
+#     else:
+#         k = k + i
+# print(k)
+
+
 """Assignment"""
 """Write a program to extract special characters from a string"""
 # s = input("Enter a string: ")
@@ -198,6 +224,16 @@ for i in n:
 #     i += 1
 # print("Special characters:", special)
 
+# (or in for loop)
+
+# s = input("Enter a string: ")
+# special = ""
+# for ch in s:
+#     if not (('A' <= ch <= 'Z') or ('a' <= ch <= 'z') or ('0' <= ch <= '9')):
+#         special = special + ch
+# print("Special characters:", special)
+
+
 """Write a program to extract the integers from the list"""
 # lst=eval(input('enter the list'))
 # i=0
@@ -208,7 +244,16 @@ for i in n:
 #     i+=1
 # print(a)
 
-# """write a program to check whether a number is perfect number or not """ perfect number means sum of the factors of the number itself
+# (or in for loop)
+
+# lst=eval(input('enter the list'))
+# a=[]  
+# for i in lst:
+#     if type(i)==int:
+#         a.append(i)
+# print(a)
+
+# """write a program to check whether a number is perfect number or not """   perfect number means sum of the factors of the number itself
 # n=int(input('enter the number'))
 # i=1
 # a=0
@@ -221,6 +266,20 @@ for i in n:
 #      print("perfect number")
 # else:
 #      print("Not a perfect number")
+
+# (or in for loop)
+
+# n=int(input('enter the number'))
+# a=0
+# for i in range(1,n):
+#     if n%i==0:
+#         a=a+i
+# print(a)
+# if a==n:
+#     print("perfect number")
+# else:
+#     print("Not a perfect number")
+
 """Write a program to reverse  a integer"""
 # n=int(input('enter the number:'))
 # rev=0
@@ -229,6 +288,15 @@ for i in n:
 #     rev=rev*10+lastdigit
 #     n=n//10
 # print(rev)
+
+# (or in for loop)
+
+# n=int(input('enter the number:'))
+# rev=0
+# for i in str(n):
+#     rev=rev*10+int(i)
+# print(rev)
+
 """Write a program to reverse a string without slicing"""
 # str=eval(input('enter the string'))
 # i=len(str)-1
@@ -248,6 +316,15 @@ for i in n:
 #     i=i+1
 # print(rev)
 
+# (or in for loop)
+
+# a=input('enter the string')
+# rev=''
+# for i in a:
+#     rev=i+rev
+# print(rev)
+
+
 """Write a  program to print sum of the digits of the number"""
 # n=int(input('enter the number:'))
 # a=0
@@ -255,6 +332,15 @@ for i in n:
 #     a+= n%10
 #     n= n//10
 # print(a)
+
+# (or in for loop)
+
+# n=int(input('enter the number:'))
+# a=0
+# for i in str(n):
+#     a+=int(i)
+# print(a)
+
 
 """Write a program to print whether the number armstrong or not"""
 # n=int(input('enter the number:'))
@@ -286,6 +372,22 @@ for i in n:
 # else:
 #     print(f'it is a armstrong number')
 
+# (or in for loop)
+
+# n=int(input('enter the number:'))
+# temp=n
+# count=0
+# sum=0
+# for i in str(n):
+#     count+=1
+# for i in str(n):
+#     sum+=int(i)**count
+# if temp==sum:
+#     print('it is a armstrong')
+# else:
+#     print('it is not a armstrong')
+
+
 
 """Write a program to print a  number is palindrome or not"""
 # n=int(input('enter the numebr:'))
@@ -299,6 +401,19 @@ for i in n:
 #     print('it is a palindrome')
 # else:
 #     print('it is not a palindrome')
+
+# (or in for loop)
+
+# n=int(input('enter the numebr:'))
+# temp=n
+# rev=0
+# for i in str(n):
+#     rev=rev*10+int(i)
+# if temp==rev:
+#     print('it is a palindrome')
+# else:
+#     print('it is not a palindrome')
+
 """Write a program to count the no.of digits present in a number without using len()"""
 # n=int(input('enter the number:'))
 # i=0
@@ -316,6 +431,15 @@ for i in n:
 #     count+=1
 #     a=a//10
 # print(count)
+
+# (or in for loop)
+
+# a=int(input('enter the number:'))
+# count=0
+# for i in str(a):
+#     count+=1
+# print(count)
+
 """Write a program to remove the duplicates from a list"""
 # l=eval(input())
 # i=0
