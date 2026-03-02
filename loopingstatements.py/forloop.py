@@ -353,12 +353,34 @@
 # for i in range(1,n+1):
 #     fact=fact*i
 # print(fact)
+
+# (or in while loop)
+
+# n=int(input())
+# fact=1
+# i=1
+# while i<=n:
+#     fact=fact*i
+#     i+=1
+# print(fact)
+
 """Write  a program to split the string and reverse the string"""
 # n=" python is easy ".split()
 # a=[]
 # for i in n:
 #     a.append(i[::-1])
 # print(" ".join(a))
+
+# (or in while loop)
+
+# n=" python is easy ".split()
+# a=[]
+# i=0
+# while i<len(n):
+#     a.append(n[i][::-1])
+#     i+=1
+# print(" ".join(a))
+
 
 """yahoo.com, hello.py, file1.txt,file2.html remove that extensions to the  names """
 # n=['yahoo.com','file1.html','file2.txt']
@@ -367,6 +389,18 @@
 #     b=i.split('.')
 #     a.append(b[0])
 # print(a)
+
+# (or in while loop)
+
+# n=['yahoo.com','file1.html','file2.txt']
+# a=[]
+# i=0
+# while i<len(n):
+#     b=n[i].split('.')
+#     a.append(b[0])
+#     i+=1
+# print(a)
+
 """Write a program to find the longest word in a sentence"""
 # s = "hi hello world"
 # a = s.split()
@@ -375,27 +409,55 @@
 #     if len(i) >=len(l):
 #         l = i
 # print("Longest word:", l)
+
 # (or)
+
 # n=input('enter').split()
 # b=''
 # for i in range(len(n)):
 #     if (len(n[i]))>=(len(b)):
 #         b=(n[i])
 # print(b)
+
+# (or in while loop)
+
+# n=input('enter').split()
+# b=''
+# i=0
+# while i<len(n):
+#     if (len(n[i]))>=(len(b)):
+#         b=(n[i])
+#     i+=1
+# print(b)
+
 """Write a  program to extract the keyvalue pairs from the dictionary if the keys are string data type"""
 # a={'a':10,20:30,'b':40, 'c':5, (10, 20):'hello'}
 # b={}
 # for i in a:
 #     if type(i)==str:
 #         b[i]=a[i]
-# print(b)           
+# print(b)  
+         
 # (or)
+
 # a=eval(input())
 # b={}
 # for i in a:
 #     if type(i)==str:
 #         b[i]=a.get(i)
 # print(b)
+
+# (or in while loop)
+# a=eval(input())
+# b={}
+# i=0
+# keys=list(a.keys())
+# while i<len(a):
+#     if type(keys[i])==str:
+#         b[keys[i]]=a.get(keys[i])
+#     i+=1
+# print(b)
+
 "write  a program to get the extensions to the words"
 # i/p:-['python.py','yahoo.com','google.com','file1.py','hello.txt']
 # o/p:- {'py':['python','file1'],com['yahoo','google'],txt['hello']}

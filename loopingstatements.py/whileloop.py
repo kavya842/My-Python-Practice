@@ -19,12 +19,25 @@
 # while i>=1:
 #     print(i)
 #     i-=1
+
+# (or in for loop)
+
+# for i in range(10,0,-1):
+#     print(i)
+
 """Write a program to print 1 to n """
 # n=int(input('enter the number:'))
 # i=1
 # while i<=n:
 #     print(i)
 #     i+=1
+
+# (or in for loop)
+
+# n=int(input('enter the number:'))
+# for i in range(1,n+1):
+#     print(i)
+
 """Write a program to print even numbers from 1 to n"""
 # n=int(input('enter the number:'))
 # i=1
@@ -32,12 +45,34 @@
 #     if i%2==0:
 #       print(i)
 #     i+=1
+
+# (or in for loop)
+
+# n=int(input('enter the number:'))
+# for i in range(1,n+1):
+#     if i%2==0:
+#         print(i)
+
 """Write a program to print multiplication table of a digit"""
 # n=int(input('enter the digit:'))
 # i=1
 # while (i<=10):
 #      print(f'{n}*{i}={i*n}')
 #      i+=1
+
+# (or in for loop)
+
+# n=int(input('enter the digit:'))
+# for i in range(1,11):
+#     print(f'{n}*{i}={i*n}')
+
+# (or)
+
+# n=int(input('enter the digit:'))
+# for i in range(1,11):
+#     print(n,'*',i,'=',n*i)
+
+
 """Write a  program to print factors of a number"""
 # n=int(input('enter the digit:'))
 # i=1
@@ -45,6 +80,14 @@
 #     if n%i==0:
 #       print(i)
 #     i+=1
+
+# (or in for loop)
+
+# n=int(input('enter the digit:'))
+# for i in range(1,n+1):
+#     if n%i==0:
+#         print(i)
+
 
 """Write  a program to find the sum of n natural numbers"""
 # n=int(input('enter the number:'))
@@ -55,6 +98,15 @@
 #     i+=1
 # print(a)
 
+# (or in for loop)
+
+# n=int(input('enter the number:'))
+# a=0
+# for i in range(1,n+1):
+#     a+=i
+# print(a)
+
+
 """Write  a program to find the sum of n natural numbers in each and every iteration"""
 # n=int(input('enter the number:'))
 # i=1
@@ -63,6 +115,15 @@
 #     a+=i
 #     i+=1
 #     print(a)
+
+# (or in for loop)
+
+# n=int(input('enter the number:'))
+# a=0
+# for i in range(1,n+1):
+#     a+=i
+#     print(a)
+
    
 """Write a program to find the factorial of a number"""
 # # n=int(input('enter the number:'))                n=int(input('enter the number:))
@@ -73,12 +134,29 @@
 #     i+=1                                                     print(fact)
 # # print(a)
 
+# (or in for loop)
+
+# n=int(input('enter the number:'))
+# fact=1
+# for i in range(1,n+1):
+#     fact*=i
+# print(fact)
+
+
 """Write a  program to print all the characters from a string"""
 # n=input(enter string:')
 # i=0
 # while i<len(n):
 #     print(n[i])
 #     i+=1
+
+# (or in for loop)
+
+n=input('enter string:')
+for i in n:
+    print(i)
+
+
 
 """Write  a program to print the vowels present in a string """
 # n=input('enter the string:')
