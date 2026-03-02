@@ -1,12 +1,140 @@
 """Write a program to print numbers from 10 to 1"""
-# for i in range(10,0,-1):
+# for i in range(10,1,-1):
 #     print(i)
+# (or) in while loop
+# i=10
+# while i>=10:
+#     print(i)
+#     i-=1
+"""Write a program to print 1 to n numbers"""
+# n=int(input('enter the number:'))
+# for i in range(1,n+1):
+#     print(i)
+# (or in while loop)
+# n=input()
+# i=1
+# while i<=n:
+#     print(i)
+#     i+=1
+"""Write a program to print even numbers from 1 to n"""
+# n=int(input('enter the number:'))
+# for i in range(1,n+1):
+#     if i%2==0:
+#         print(i)
+# (or in while loop)
+# n=int(input('enter the number:'))
+# i=1
+# while i<=n:
+#     if i%2==0:
+#         print(i)
+#     i+=1
+
+"""Write a program to print odd numbers from 1 to n"""
+# n=int(input('enter the number:'))
+# for i in range(1,n+1):
+#     if i%2==1:
+#         print(i)
+# (or in while loop)
+# n=int(input('enter the number:'))
+# i=1
+# while i<=n:
+#     if i%2==1:
+#         print(i)
+#     i+=1
+
+"""Write a program to print multiplication table of a digit"""
+# n=int(input('enter the digit:'))
+# for i in range(1,11):
+#     print(f'{n}*{i}={i*n}')
+# (or in while loop)
+"""Write a program to print a prime using for loop"""
+# n=int(input('enter the number:'))
+# for i in range(2,n):
+#     if n%i==0:
+#         print('not prime')
+
+"""Write a  program to print factors of a number"""
+# n=int(input('enter the digit:'))
+# for i in range(1,n+1):
+#     if n%i==0:
+#         print(i)
+
+# (or in while loop)
+
+# n=int(input('enter the digit:'))
+# i=1
+# while i<=n:
+#     if n%i==0:
+#         print(i)
+#     i+=1
+
+
+"""Write  a program to find the sum of n natural numbers"""
+# n=int(input('enter the number:'))
+# sum=0
+# for i in range(1,n+1):
+#     sum+=i
+# print(sum)
+
+# (or in while loop)
+
+# n=int(input('enter the number:'))
+# i=1
+# sum=0
+# while i<=n:
+#     sum+=i
+#     i+=1
+# print(sum)
+
+"""Write  a program to find the sum of n natural numbers in each and every iteration"""
+# n=int(input('enter the number:'))
+# sum=0
+# for i in range(1,n+1):
+#     sum+=i
+#     print(sum)
+
+# (or in while loop)
+
+# n=int(input('enter the number:'))
+# i=1
+# sum=0
+# while i<=n:
+#     sum+=i
+#     i+=1
+#     print(sum)
+
+"""Write a program to find the factorial of a number"""
+# n=int(input('enter the number:'))
+# fact=1
+# for i in range(1,n+1):
+#     fact=fact*i
+# print(fact)
+# (or in while loop)
+# n=int(input('enter the number:'))
+# fact=1
+# while n>=1:
+#     fact=fact*n
+#     n-=1
+# print(fact)
 """Write a program to print odd numbers"""
 # for i in range(1,20,2):
 #     print(i)
+# (or in while loop)
+# i=1
+# while i<=20:
+#     if i%2==1:
+#       print(i)
+#       i+=1
+
 """write a program to print even numbers"""
 # for i in range(0,20,2):
 #     print(i)
+# (or in while loop)
+# i=0
+# while i<=20:
+#     if i%2==0:
+#         print(i)
+#         i+=1
 """Write a program to print characters present at even index"""
 # ch=eval(input())
 # for i in range(len(ch)):

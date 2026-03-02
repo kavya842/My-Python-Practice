@@ -6,12 +6,12 @@
 #             min=i
 # print(min)      
 """Write a program to find the sum of even number in the given range"""
-n=input()
-a=0
-for i in range(1,n+1):
-    if i%2==0:
-        a+=1
-print(a)
+# n=input()
+# a=0
+# for i in range(1,n+1):
+#     if i%2==0:
+#         a+=1
+# print(a)
 """Write a  program to find the no.of words present in a  string without using string inbuilt functions except split()"""
 # s=input('enter the string:').split()
 # i=0
