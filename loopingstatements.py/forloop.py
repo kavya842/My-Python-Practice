@@ -1,7 +1,9 @@
 """Write a program to print numbers from 10 to 1"""
 # for i in range(10,1,-1):
 #     print(i)
+
 # (or) in while loop
+
 # i=10
 # while i>=10:
 #     print(i)
@@ -10,7 +12,9 @@
 # n=int(input('enter the number:'))
 # for i in range(1,n+1):
 #     print(i)
+
 # (or in while loop)
+
 # n=input()
 # i=1
 # while i<=n:
@@ -21,7 +25,9 @@
 # for i in range(1,n+1):
 #     if i%2==0:
 #         print(i)
+
 # (or in while loop)
+
 # n=int(input('enter the number:'))
 # i=1
 # while i<=n:
@@ -34,7 +40,9 @@
 # for i in range(1,n+1):
 #     if i%2==1:
 #         print(i)
+
 # (or in while loop)
+
 # n=int(input('enter the number:'))
 # i=1
 # while i<=n:
@@ -46,7 +54,16 @@
 # n=int(input('enter the digit:'))
 # for i in range(1,11):
 #     print(f'{n}*{i}={i*n}')
+
 # (or in while loop)
+
+# n=int(input('enter the digit:'))
+# i=1
+# while i<=10:
+#     print(f'{n}*{i}={i*n}')
+#     i+=1
+
+
 """Write a program to print a prime using for loop"""
 # n=int(input('enter the number:'))
 # for i in range(2,n):
@@ -109,7 +126,9 @@
 # for i in range(1,n+1):
 #     fact=fact*i
 # print(fact)
+
 # (or in while loop)
+
 # n=int(input('enter the number:'))
 # fact=1
 # while n>=1:
@@ -126,10 +145,21 @@
 #       print(i)
 #       i+=1
 
+# (or in while loop)
+
+# i=1
+# while i<=20:
+#     if i%2==1:
+#         print(i)
+#     i+=1
+
+
 """write a program to print even numbers"""
 # for i in range(0,20,2):
 #     print(i)
+
 # (or in while loop)
+
 # i=0
 # while i<=20:
 #     if i%2==0:
@@ -140,16 +170,40 @@
 # for i in range(len(ch)):
 #     if i%2==0:
 #      print(ch[i])
+
 # (or)
+
 # ch=eval(input())
 # for i in range(0,len(ch),2):
 #     print(ch[i])
+
+# (or in while loop)
+
+# ch=eval(input())
+# i=0
+# while i<len(ch):
+#     if i%2==0:
+#         print(ch[i])
+#     i+=1
+
+
 """Write a program to find the length of the collection without using len()"""
 # ch=eval(input())
 # count=0
 # for i in ch:
 #     count+=1
 # print(count)
+
+# (or in while loop)
+
+# ch=eval(input())
+# count=0
+# i=0
+# while i<len(ch):
+#     count+=1
+#     i+=1
+# print(count)
+
 """Assignment Questions"""
 """Write a program the lowercase char if its ascii value is even"""
 # s=eval(input())
@@ -158,31 +212,68 @@
 #         if ord(i)%2==0:
 #             print(i)
 
-# (0r)
+# (or)
+
 # s=eval(input())
 # for i in s:
 #     if 'a'<=i<='z':
 #         if ord(i)%2==0:
 #            print(i)
+
+# (or in while loop)
+
+# s=eval(input())
+# i=0       
+# while i<len(s):
+#     if s[i].islower():
+#         if ord(s[i])%2==0:
+#             print(s[i])
+#     i+=1
+
+
 """Write  a program the sum of integers in present a  set """
 # s=eval(input())
 # sum=0
 # for i in s:
 #     sum=sum+i
 # print(sum)
+
 #  (or)
+
 # s=eval(input())
 # sum=0
 # for i in s:
 #     if type(i)==int or type(i)==float:
 #         sum=sum+i
 # print(sum)
+
+# (or in while loop)
+# s=eval(input())
+# sum=0
+# i=0
+# while i<len(s):
+#     if type(s[i])==int or type(s[i])==float:
+#         sum=sum+s[i]
+#     i+=1
+# print(sum)
+
 """Write a program to display the split of string and its length"""
 # s=input().split()
 # a=[]
 # for i in s:
 #    a.append((i,len(i)))
 # print(a)
+
+# (or in while loop)
+
+# s=input().split()
+# a=[]
+# i=0
+# while i<len(s):
+#     a.append((s[i],len(s[i])))
+#     i+=1
+# print(a)
+
 """Write a program to reverse the string"""
 # i/p:-'sunday is funday'
 # o/p:-{'sunday','yadnus','is','si','funday','yadnuf'}
@@ -200,6 +291,16 @@
 #     a.setdefault(i,i[::-1])
 # print(a)
 
+# (or in while loop)
+# s='sunday is funday'.split()
+# a={}
+# i=0
+# while i<len(s):
+#     a.setdefault(s[i],s[i][::-1])
+#     i+=1
+# print(a)
+
+
 """Write a program to find out """
 # i/p:-'hyderabad is famous for chicken biriyani'
 # o/p:-{'hyderabad','r','is','is','famous','fs','for','o','chicken','c','biriyani','bi'}
@@ -211,6 +312,19 @@
 #      else:
 #           a[i]=i[len(i)//2]
 # print(a)
+
+# (or in while loop)
+# n=input() .split()
+# a={}
+# i=0
+# while i<len(n):
+#     if len(n[i])%2==0:
+#         a[n[i]]=n[i][0]+n[i][-1]
+#     else:
+#         a[n[i]]=n[i][len(n[i])//2]
+#     i+=1
+# print(a)
+
 """Write a program to find the occurance of a specified character in a string """
 # n='kavya'
 # n1='v'
@@ -219,6 +333,19 @@
 #     if i==n1:
 #         count+=1
 # print(count)
+
+# (or in while loop)
+
+# n='kavya'
+# n1='v'
+# count=0
+# i=0
+# while i<len(n):
+#     if n[i]==n1:
+#         count+=1
+#     i+=1
+# print(count)
+
 
 """Write  a program to print the factorial of a  number"""
 # n=int(input())
@@ -281,6 +408,21 @@
 #     else:
 #         b[c[1]].append(c[0])
 # print(b)
+
+# (or in while loop)
+
+# a=['python.py','yahoo.com','google.com','file1.py','hello.txt']
+# b={}
+# i=0
+# while i<len(a):
+#     c=a[i].split('.')
+#     if c[1] not in b:
+#         b[c[1]]=[c[0]]
+#     else:
+#         b[c[1]].append(c[0])
+#     i+=1
+# print(b)
+
 """input:- s='aabbaaccbbca'"""
 """output:- {'a':5,'b':4,'c':3}"""
 # a='aabbaaccbbca'
@@ -291,6 +433,7 @@
 # print(b)
 
 # (or in while loop)
+
 # a='aabbaaccbbca'
 # b={}
 # i=0
@@ -331,6 +474,16 @@
 # print(d1)
 
 # (or in while loop)
+
+# d=eval(input())
+# d1={}
+# i=0
+# keys=list(d.keys())
+# while i<len(d):
+#     d1[d.get(keys[i])]=keys[i]
+#     i+=1
+# print(d1)
+
 
 """i/p:'aabacabc' o/p:- 'a4b2c2'"""
 """input='aabacabc"""
