@@ -27,11 +27,33 @@
 #              break
 #         print('hey reenter the username')
 """Write a program to find a first palindrome in a collection of numbers and string"""
-l=[23,11,2,3,4,5,'hello','world','python']
-for i in l:
-    if str(i)==str(i)[::-1]:
-        print(i)
-        break
+# l=[23,11,2,3,4,5,'hello','world','python']
+# for i in l:
+#     if str(i)==str(i)[::-1]:
+#         print(i)
+#         break
+"""Write  a program to validate the password if the password is contain the 3 special characterrs and 2 numbers and 3 capital letters and password should be less than or equal to 8 and password is combination of all of these"""
+password=input('enter the password:')
+if len(password)>8:
+   s=0
+   c=0
+   d=0
+   for i in password:
+      if i.isupper():
+         c+=1
+      if i.isdigit():
+         d+=1
+      if i in '@#$%^&*':
+         s+=1
+   if s>=3 and c>=3 and d>=2:
+        print('hey your password is valid')
+   else:
+        print('hey your password is invalid')
+else:
+    print('length is less than 8')
+          
+    
+
 
 
 
