@@ -392,14 +392,14 @@
 
 # (or in while loop)
 
-# n=['yahoo.com','file1.html','file2.txt']
-# a=[]
-# i=0
-# while i<len(n):
-#     b=n[i].split('.')
-#     a.append(b[0])
-#     i+=1
-# print(a)
+n=['yahoo.com','file1.html','file2.txt']
+a=[]
+i=0
+while i<len(n):
+    b=n[i].split('.')
+    a.append(b[0])
+    i+=1
+print(a)
 
 """Write a program to find the longest word in a sentence"""
 # s = "hi hello world"
