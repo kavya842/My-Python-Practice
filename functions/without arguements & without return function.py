@@ -32,5 +32,18 @@
 #     print(f"'{b}'")
 # rev()
 """Write a function to concatinate two lists  without + operator """
-
+# def concat():
+#     n=eval(input())
+#     n1=eval(input())
+#     for i in n1:
+#        n.append(i)
+#     print(n)
+# concat()
+# (or)
+# def concat():
+#     n=eval(input())
+#     n1=eval(input())
+#     n.extend(n1)
+#     print(n)
+# concat()
     
