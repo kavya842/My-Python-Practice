@@ -20,14 +20,13 @@
 #             lower+=1
 #         elif i.isalpha():
 #             spe+=1
-    # print(spe)
+#     print(spe)
 #     print(upper)
 #     print(lower)
 # count()
 """i/p:- 'hum apke hai kon' o/p:- 'kon hai apke hum' """
 # def rev():
 #     n=eval(input('enter the string:')).split()
-#     a=''
 #     b=" ".join(n[::-1])
 #     print(f"'{b}'")
 # rev()
@@ -39,11 +38,12 @@
 #        n.append(i)
 #     print(n)
 # concat()
+
 # (or)
+
 # def concat():
 #     n=eval(input())
 #     n1=eval(input())
 #     n.extend(n1)
 #     print(n)
 # concat()
-    
