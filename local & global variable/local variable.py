@@ -20,8 +20,8 @@
 # n=13
 # print(n%2==0)
 """Write a program to check whether the given number is odd or not"""
-n=13
-print(n%2==1)
+# n=13
+# print(n%2==1)
 """Write a program to  print whether the number is palindrome or not"""
 # def palin(n):
 #     temp = n
@@ -116,6 +116,27 @@ print(n%2==1)
 # n = int(input("Enter n value: "))
 # sum_even(n)
 # (or)
-n=4
-print(n*(n+1))
+# n=4
+# print(n*(n+1))
+# (or)
+# n=100
+# print(n*(n+1)//2)
+"""Write a function to calculate the gcd"""
+# def gcd(a,b):
+#     if b==0:
+#         return a 
+#     return gcd(b,a%b)
+    
+# print(gcd(10,20))
+
+# (or)
+
+# def gcd(a,b):
+#     res=1
+#     for i in range(1,a+1):
+#         if a%i==0 and b%i==0:
+#             res=i
+#     return res
+# print(gcd(10,20))
+
 
