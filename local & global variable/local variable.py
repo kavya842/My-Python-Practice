@@ -138,5 +138,18 @@
 #             res=i
 #     return res
 # print(gcd(10,20))
+"""Write a program to calculate the lcm"""
+def gcd(a,b):
+    res=1
+    for i in range(1,a+1):
+        if a%i==0 and b%i==0:
+            res=i
+    return res
+n=10
+m=20
+g=gcd(20,10)
+lcm=n*m//g
+print(lcm)
+
 
 
