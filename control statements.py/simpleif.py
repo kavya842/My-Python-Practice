@@ -14,6 +14,7 @@
 #     print(char)
 
 # # (or)
+
 # char=input('enter the vowel')
 # if char in ('a','e','i','o','u','A','E','I','O','U'):
 #     print('it is a vowel')
@@ -22,7 +23,9 @@
 # char=input('enter the character:')
 # if 'A' <= char <= 'Z':
 #     print('the ascii value of character:',ord(char))
+
 # # (or)
+
 # ch=input('enter the char:')
 # if 'A'<=ch<='Z':
 #    print(ord(ch))
@@ -33,7 +36,8 @@
 #     print('the cube number:',a**3)
 
 # "Today Assignment 04-02-2026"
-# 1)Write a program to print last digit of a num if it is 2 digit number
+
+"""Write a program to print last digit of a num if it is 2 digit number"""
 # num=int(input('enter the number:'))
 # if 10<=abs(num)<=99:
 #    print(abs(num)%10)
