@@ -7,6 +7,7 @@
 # print(rev) 
 
 # (convert the above the program of while loop into recursive)
+
 # def rev11(num,rev=0):
 #     if num<=0:
 #         return rev
@@ -24,10 +25,25 @@
 #     print(n,end='')
 # sam(3)
 """Write a program to find the fibonacci series"""
-n=int(input('enter the number:'))
-a=0
-b=1
-while n>0:
-    print(a,end='')
-    a,b=b,a+b
-    n-=1
+# n=int(input('enter the number:'))
+# a=0
+# b=1
+# while n>0:
+#     print(a,end='')
+#     a,b=b,a+b
+#     n-=1
+"""Write a program to print factorial number"""
+# def fact(n):
+#     if n==0 or n==1:
+#         return 1
+#     return n*fact(n-1)
+# print(fact(4))
+"""Write a program to print flatten"""
+# def flatten(l,out=[]):
+#     for i in l:
+#         if type(i) in [int,float,complex,bool,str]:
+#             out.append(i)
+#         else:
+#             flatten(i,out)
+#     return out
+# print(flatten(eval(input('enter a collection'))))
