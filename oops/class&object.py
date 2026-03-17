@@ -40,4 +40,26 @@
 # student2=institute("mani","ravikumar",8919951976,"ongole","javafullstack")
 # print(student1.name,student1.fathername,student1.phno,student1.address,student1.course)
 # print(student2.name,student2.fathername,student2.phno,student2.address,student2.course)
+
+"""user defined method"""
+class institute:
+    institutename="jspiders"
+    address="hydjntu"
+    founder="kavya"
+    contactno=9878786543
+    def __init__(self,name,fathername,phno,address,course):
+        self.name=name
+        self.fathername=fathername
+        self.phno=phno
+        self.address=address
+        self.course=course
+    def disp(self):
+        print(self.name,self.fathername,self.phno,self.address,self.course)
+student1=institute("kavya","Ravikumar",8919951981,"ongole","pythonfullstack")
+student2=institute("mani","Ravikumar",8919951976,"ongole","javafullstack")
+student1.disp()
+student2.disp()
+print(vars(student1))
+print(vars(student2))
+
         
