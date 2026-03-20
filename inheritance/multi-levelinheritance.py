@@ -8,8 +8,8 @@ class Whatsapp:
         self.videocall=videocall
         self.status=status
     def disp(self):
-        print(self.name,self.cost,self.memory,self.storage)
-class Update_whatsapp:
+        print(self.messages,self.voicecall,self.videocall,self.status)
+class Update_whatsapp(Whatsapp):
     def __init__(self,messages,voicecall,videocall,status,songforstatus,screenshare,onetapimagesorviedos):
         super(). __init__(messages,voicecall,videocall,status)
         self.songforstatus=songforstatus
@@ -18,5 +18,5 @@ class Update_whatsapp:
     def disp(self):
         super().disp()
         print(self.songforstatus,self.screenshare,self.onetapimagesorviedos)
-Up=Update_whatsapp("end to end messages","voice call","viedocall","images","song for image","sharing the screen","sending images for once")
-Up.display()
+Up=Update_whatsapp("end to end messages :","voice call:","viedocall:","images:","song for image:","sharing the screen:","sending images for once:")
+Up.disp()
