@@ -8,6 +8,7 @@ class school:
         self.subject=subject
     def disp(self):
         print(self.studentname,self.facultyname,self.classroomno,self.subject)
+
 class school_sports(school):
     def __init__(self,studentname,facultyname,classroomno,subject,khokho,kabaddi,running,throwball):
         super(). __init__(studentname,facultyname,classroomno,subject)
@@ -18,6 +19,7 @@ class school_sports(school):
     def displ(self):
         super().disp()
         print(self.khokho,self.kabaddi,self.running,self.throwball)
+
 class school_cultures(school):
     def __init__(self,studentname,facultyname,classroomno,subject,danceprogram,singingcompetition,drama):
         super(). __init__(studentname,facultyname,classroomno,subject)
@@ -26,7 +28,8 @@ class school_cultures(school):
         self.drama=drama
     def displa(self):
         super().disp()
-        print(self.studentname,self.facultyname,self.classroomno,self.subject,self.danceprogram,self.singingcompetition,self.drama)
+        print(self.danceprogram,self.singingcompetition,self.drama)
+
 class school_prizes(school):
     def __init__(self,studentname,facultyname,classroomno,subject,Firstprize,Secondprize):
         super(). __init__(studentname,facultyname,classroomno,subject)
@@ -35,5 +38,5 @@ class school_prizes(school):
     def display(self):
         super().disp()
         print(self.Firstprize,self.Secondprize)
-k1=school_prizes("kavya","ravi",31,"python","Firstprize","Secondprize")
-k1.display()
+k1=school_cultures("kavya","ravi",31,"python","dance","singing","drama")
+k1.displa()
