@@ -49,3 +49,36 @@ S1=School("dora")
 S1.get_var()
 S1.set_var('bujji')
 S1.get_var()
+
+"""Property Decorator"""
+class School:
+    __Sname="sri chaitanya"
+    __Sloc="ongole"
+    def __init__(self,name):
+        self.__name=name
+    def __disp(self):
+        print(self.__name)
+    @property
+    def name(self):
+        return self.__name
+    @name.setter
+    def name(self,new):
+        self.__name=new
+S1=School("kavya")
+print(S1.name)
+
+class School:
+    __Sname="sri chaitanya"
+    __Sloc="ongole"
+    def __init__(self,name):
+        self.__name=name
+    def __disp(self):
+        print(self.__name)
+    @property
+    def name(self):
+        print(self.__name)
+    @name.setter
+    def name(self,new):
+        self.__name=new
+S1=School("Mani")
+S1.name
