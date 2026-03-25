@@ -80,5 +80,5 @@ class School:
     @name.setter
     def name(self,new):
         self.__name=new
-S1=School("Mani")
+S1=School("Mani Kanta ")
 S1.name
