@@ -1,6 +1,6 @@
 """Write a  program to check whether the given character is special charactor or not"""
-special =lambda s:s  not in (('A'<=s<='Z')  or s not in ('0'<=s<='9'))
-print(special(','))
+# special =lambda s:s  not in (('A'<=s<='Z')  or s not in ('0'<=s<='9'))
+# print(special(','))
 # (or)
 
 """Write a program to check whether the given character is vowel or not"""
@@ -35,3 +35,6 @@ print(special(','))
 """Write a program to check whether the last digit is even or not"""
 # check=lambda d:'even' if abs(d)%10%2==0 else 'not even'
 # print(check(24))
+"""Write a program to check whether a string is ending with L or not"""
+check=lambda s: 'ending with L' if s[-1]=='L' else 'ending not with L'
+print(check('kavya'))
