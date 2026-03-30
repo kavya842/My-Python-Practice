@@ -45,9 +45,8 @@ My goal is to build a strong foundation in Python and become confident in writin
 
 ##  Status
 
-Currently learning and improving every day 💪
+Currently learning and improving every day 
 
 ---
-
-⭐ This repository shows my consistency and dedication towards learning Python.
+ This repository shows my consistency and dedication towards learning Python.
 
