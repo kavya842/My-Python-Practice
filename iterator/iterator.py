@@ -25,6 +25,9 @@ songs_list = ["Song1", "Song2", "Song3"]
 playlist = Playlist(songs_list)
 for song in playlist:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 976327e (update filehandling)
     print("Now Playing:", song)
 
 
@@ -33,6 +36,9 @@ papers_correction=["paper 1 is corrected","paper 2 is corrected","paper 3 is cor
 i=iter(papers_correction)
 print(next(i))
 print(next(i))
+<<<<<<< HEAD
 =======
     print("Now Playing:", song)
 >>>>>>> b498160 (update generator)
+=======
+>>>>>>> 976327e (update filehandling)

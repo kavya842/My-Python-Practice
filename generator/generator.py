@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 976327e (update filehandling)
 # def serve_tea():
 #     yield "Tea for Customer 1"
 #     yield "Tea for Customer 2"
@@ -12,6 +15,7 @@ def papers_correction():
     yield "paper 3 is corrected"
 for teacher in papers_correction():
     print(teacher)
+<<<<<<< HEAD
 =======
 def serve_tea():
     yield "Tea for Customer 1"
@@ -20,3 +24,5 @@ def serve_tea():
 for tea in serve_tea():
     print(tea)
 >>>>>>> b498160 (update generator)
+=======
+>>>>>>> 976327e (update filehandling)
