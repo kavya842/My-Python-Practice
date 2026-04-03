@@ -17,6 +17,8 @@ This repository contains my daily Python practice programs. I am learning Python
 * pattern programming
 * File Handling
 * Exception Handling
+* parsing techniques
+* encapsulation
 * Object-Oriented Programming (OOP)
 * lambda
 * map & filter
