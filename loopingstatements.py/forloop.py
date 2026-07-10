@@ -65,10 +65,10 @@
 
 
 """Write a program to print a prime using for loop"""
-# n=int(input('enter the number:'))
-# for i in range(2,n):
-#     if n%i==0:
-#         print('not prime')
+n=int(input('enter the number:'))
+for i in range(2,n):
+    if n%i==0:
+        print('not prime')
 
 """Write a  program to print factors of a number"""
 # n=int(input('enter the digit:'))

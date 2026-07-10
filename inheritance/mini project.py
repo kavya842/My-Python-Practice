@@ -38,7 +38,7 @@ class Testing:
     def display_ts(self):
         print("Testing students:")
         print(self.ts_students)
-class PythonCourse(PythonFullstack, Javafullstack, Datascience, Datanalytics, Testing):
+class Training(PythonFullstack, Javafullstack, Datascience, Datanalytics, Testing):
     def __init__(self):
         PythonFullstack.__init__(self)
         Javafullstack.__init__(self)
@@ -52,7 +52,7 @@ class PythonCourse(PythonFullstack, Javafullstack, Datascience, Datanalytics, Te
         self.display_ds()
         self.display_da()
         self.display_ts()
-s1 = PythonCourse()
+s1 = Training()
 s1.add_pfs("dora",8919951981,"ramya",9652738424,"surya",7671071426)
 s1.add_jfs("siva",1234567897,"ravi",9987654321)
 s1.add_ds("sravani","sravan","stayam")

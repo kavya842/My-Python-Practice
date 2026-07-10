@@ -12,7 +12,7 @@
 """Write  a program to check whether a string is keyword or not"""
 # n=input('enter the keyword:')
 # import keyword
-# if n in (keyword.kwlist):                       //manam import statement program starting lo import chayali//
+# if n in (keyword.kwlist):                      # manam import statement program starting lo import chayali//
 #     print('it is a keyword')
 # else:
 #     print('it is not a keyword')
@@ -39,15 +39,14 @@
 #     print('it is not a palindrom')
 
 """Write a program TO reverse starting with uppercase  ending with lowercase and middle character is a digit"""
-# n=input('enter the character:')
-# mid = len(n)// 2
-# if len(n)>=3 and 'A'<=n[0]<='Z' and '0'<=n[mid]<='9' and 'a'<=n[len(n)-1]<='z':
-#     print('it satifies')
-#     # rev=n[len(n)-1]+n[mid]+n[0]  
-#     rev=n[::-1]
-#     print('reversed',rev)
+# n = input('enter the string: ')
+# rev = n[::-1]
+# mid = len(rev) // 2
+# if len(rev) >= 3 and 'A' <= rev[0] <= 'Z' and '0' <= rev[mid] <= '9' and 'a' <= rev[-1] <= 'z':
+#     print('it satisfies')
+#     print('reversed:', rev)
 # else:
-#     print('it does not satifies')
+#     print('it does not satisfy')
 
 """Write a program to check whether a number is positive or negitive"""
 # n=int(input())
@@ -57,8 +56,6 @@
 #     print('it is not a positive number')
 
 """Write  a program to check whether middle value of list is integer or not """
-
-# l=eval(input('enter the list:'))
 # # l=[10,20,30,40,50]
 # mid=len(l)//2
 # if type(l[mid])==int:
@@ -68,9 +65,9 @@
 
 
 """Write a program to check whether a collection is homogenous or not """
-# l = eval(input("Enter collection: "))
-# if type(l[0]) == type(l[1]) and type(l[1]) == type(l[2]):                  (or)       if type(l[0])==type(l[-1]):
-#     print("Homogeneous")
-# else:
-#     print("Not Homogeneous")
+l = eval(input("Enter collection: "))
+if type(l[0]) == type(l[1]) and type(l[1]) == type(l[2]):                  #(or)       if type(l[0])==type(l[-1]):
+    print("Homogeneous")
+else:
+    print("Not Homogeneous")
 

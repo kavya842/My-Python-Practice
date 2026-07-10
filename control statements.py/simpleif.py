@@ -83,7 +83,7 @@
 """Write  a program to check whether the data is single value data type"""
 # n=eval(input('enter the value:'))                                  # n=eval(input('enter any data'))
 # if type(n) not in (list,tuple,set,str,dict):              # (or)     if type(n) in (int,float,bool,complex):
-#     print('enter the values',type(n))                              # print('it is a single value datatype')
+#     print('the type of the data is: ',type(n))                              # print('it is a single value datatype')
 
 
 """Write  a program to check whether the data is mutable"""
@@ -92,6 +92,6 @@
 #     print('it is a mutable data types')
 
 """ Write a program to print the given values are default values or not"""
-# n=eval(input('enter the data'))                                      data = eval(input('enter the value'))                  n=eval(input('enter the data'))
-# if  not bool(n):                                           (or)      if bool(data) is False:               (or)             if bool(n) == False:              (or) if bool(n) not in [True]:
-#     print(' default values',bool(type(n)))                            print('default value' )                               print('default value')
+# n=eval(input('enter the data'))                                     # data = eval(input('enter the value'))                  n=eval(input('enter the data'))
+# if  not bool(n):                                           #(or)      #if bool(data) is False:               (or)             if bool(n) == False:              (or) if bool(n) not in [True]:
+#     print(' default values',bool(type(n)))                           # print('default value' )                               print('default value')
