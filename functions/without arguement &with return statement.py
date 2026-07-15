@@ -7,13 +7,13 @@
 #         return "valid collection"
 # print(rev())
 """i/p:- 'hello' o/p:- i want that first l index """
-# def ind():
+# def index():
 #     s=input('enter the str:')
 #     ch=input('enter the char:')
 #     for i in range(len(s)):
 #         if s[i]==ch:
 #             return i
-# print(ind())
+# print(index())
 """write a  program to extract negitive numbers from a list of integers """
 # def extract():
 #     s=eval(input('enter the collection:'))
