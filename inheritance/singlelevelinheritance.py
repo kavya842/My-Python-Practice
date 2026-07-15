@@ -18,4 +18,6 @@ class Update_bank(Bank):
         super().disp()
         print(self.aadharno,self.panno)
 cus1=Update_bank("kavya","ravikumar",21,"kamepalli","8919951981",969272966108,"UPINE23415")
+cus2=Update_bank("Mani","Ravi Kumar",19,"Kamepalli","9652738424",9876543456789,"UPINE23415")
 cus1.display()
+cus2.display()
