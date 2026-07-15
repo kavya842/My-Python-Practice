@@ -65,10 +65,10 @@
 
 
 """Write a program to print a prime using for loop"""
-n=int(input('enter the number:'))
-for i in range(2,n):
-    if n%i==0:
-        print('not prime')
+# n=int(input('enter the number:'))
+# for i in range(2,n):
+#     if n%i==0:
+#         print('not prime')
 
 """Write a  program to print factors of a number"""
 # n=int(input('enter the digit:'))
@@ -610,3 +610,11 @@ for i in range(2,n):
 #     i+=1
 # out+=s[-1]+str(count)
 # print(out)
+"""Write a program to find out the repetative  number in a list"""
+a=[1,2,3,2,3,4,8,7]
+b=[]
+for i in a:
+    if a.count(i)>1 and i not in b:
+        b.append(i)
+print(b)
+

@@ -40,7 +40,7 @@
 # elif b>=a and b>=c:
 #     print("greates number is b")
 # else:
-    # print("Greatest numnber is c")
+#     print("Greatest numnber is c")
 """Write  a program to find the relation between two numbers"""
 # a=int(input("Enter a value:"))
 # b=int(input("Enter a value:"))
@@ -54,7 +54,7 @@
 """Write  a program to print uppercase character if it is in lowercase  or print lowercase if it is in uppercase or if it is a digit multiply with 10 or if it is a special character print the 3rd special character after the special character"""
 # n=eval(input('enter the character:'))
 # if 'A'<=n<='Z':
-#     print('The conversion of  character:', (chr(ord(n)+32)))
+#     print('The conversion of  character:', chr(ord(n)+32)))
 # elif 'a'<=n<='z':
 #     print('the conversion of character:',chr(ord(n)-32))
 # elif '0'<=n<='9':
@@ -70,7 +70,7 @@
 # elif 'a'<=n<='z':
 #     print(n.upper())
 # elif '0'<=n<='9':
-#     print(int(a)*10)
+#     print(int(n)*10)
 # else:
 #     print(chr(ord(n)+3))
 
